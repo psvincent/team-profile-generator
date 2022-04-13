@@ -4,6 +4,10 @@
 
 
 
+https://user-images.githubusercontent.com/97009239/163105661-30596185-c48c-4204-93ba-744d1975a720.mp4
+
+
+
 ## Description
 This application allows you to create a full team consisting of one manager, many engineers, and many interns.  You can include the name, position, Employee ID, and email of all employees.  You can include an office number for the manager, GitHub username for the engineer, and school for the intern.  It takes all the info that you write in the terminal and turns it into an html file.
 
