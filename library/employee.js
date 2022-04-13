@@ -1,22 +1,24 @@
 // Setting up the initial employee class to equip to all other specific job titles.
 class employee {
+    // Creating initial employee contructor that will be used with all the employee child's classes as well.
     constructor(id, name, email) {
         this.name = name;
         this.id = id;
         this.email = email;
     }
-    employeeName() {
+    returnName() {
         return this.name
     }
-    employeeId() {
+    returnId() {
         return this.id
     }
-    employeeEmail() {
+    returnEmail() {
         return this.email
     }
-    employeeRole() {
+    returnRole() {
         return 'Employee'
     }
 }
 
+// Exporting the file
 module.exports = employee;

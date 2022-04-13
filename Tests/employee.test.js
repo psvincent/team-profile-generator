@@ -1,6 +1,7 @@
-// Requiring the employee js file from library.
-const employee = require('../library/employee');
 
+
+
+// Runs a basic test to make sure everything works
 describe('employee', () => {
     it("allows user to set employee's name, id, and email", () => {
         const employeeName = "Philip";
