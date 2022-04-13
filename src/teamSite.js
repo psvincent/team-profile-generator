@@ -60,7 +60,7 @@ let engineerBuild = (engineer) => {
     <ul class="list-group">
     <li class="list-group-item">ID: ${engineer.returnId()}</li>
     <li class="list-group-item">Email: ${engineer.returnEmail()}</li>
-    <li class="list-group-item">Office Number: ${engineer.returnGithub()}</li>
+    <li class="list-group-item">GitHub: ${engineer.returnGithub()}</li>
     </ul>
     </div>
     </div>
@@ -79,7 +79,7 @@ let internBuild = (intern) => {
     <ul class="list-group">
     <li class="list-group-item">ID: ${intern.returnId()}</li>
     <li class="list-group-item">Email: ${intern.returnEmail()}</li>
-    <li class="list-group-item">Office Number: ${intern.returnSchool()}</li>
+    <li class="list-group-item">School: ${intern.returnSchool()}</li>
     </ul>
     </div>
     </div>
