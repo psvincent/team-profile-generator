@@ -15,11 +15,11 @@ function teamSite(teamCards) {
                 cards.push(managerBuild(newManager));
                 break;
             case 'engineer':
-                const newEngineer = new engineer(siteBuild.name, siteBuild.id, siteBuild.email, siteBuild.officeNumber);
+                const newEngineer = new engineer(siteBuild.name, siteBuild.id, siteBuild.email, siteBuild.github);
                 cards.push(engineerBuild(newEngineer));
                 break;
             case 'intern':
-                const newIntern = new intern(siteBuild.name, siteBuild.id, siteBuild.email, siteBuild.officeNumber);
+                const newIntern = new intern(siteBuild.name, siteBuild.id, siteBuild.email, siteBuild.school);
                 cards.push(internBuild(newIntern));
                 break;
         }
